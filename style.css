@@ -1,0 +1,98 @@
+/*General styles*/
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  scrall-behavior:smooth;
+  }
+header{
+  background:#333;
+  color:white;
+  padding:20px 10px
+  }
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  }
+.nav-links{
+  list-style:none;
+  display:flex;
+  }
+.nav-links li{
+  margin:10px 2px;
+  }
+.navbar{
+  display:flex;
+  justify-conent:space-between;
+  align-items:center;
+  }
+.nav-links{
+  list-style:none;
+  display:flex;
+  }
+.nav-links li{
+  margin:0 10px;
+  }
+.nav-links a{
+  color:white;
+  text-decoration:none;
+  }
+.menu-toggle{
+  display:none;
+  font-size:24px;
+  cursor:pointer;
+  }
+/*Hero section*/
+.hero{
+  background:linear-gradient(to right,#4facfe,#00f2fe);
+  color:white;
+  text-align:center;
+  padding:60px 20px;
+  }
+.hero h1 span{
+  color:yellow;
+  }
+.btn{
+  background:white;
+  color:#333;
+  padding:10px 20px;
+  text-decoration:none;
+  margin-top:20px;
+  display:inline-black;
+  border-radius:5px;
+  }
+/*About section*/
+.about{
+  padding:40px 20px;
+  text-align:center;
+  }
+.about-center{
+  display:flex;
+  flex-wrap:warp;
+  justify-content:center;
+  align-items:center;
+  }
+.about-content img{
+  max-width:150px;
+  border-radius:50%;
+  margin:20px;
+  }
+/*projects section*/
+.projects{
+  padding:40px 20px;
+  background:#f4f4f4;
+  text-align:center;
+  }
+/*skills section*/
+.skills{
+  padding:40px 20px;
+  background:#f4f4f4;
+  text-align:center;
+  }
+/*contact section*/
+.contact{
+background:white;
+justify-content:center;
+padding:40px 20px;
+  }
+  
